@@ -16,7 +16,8 @@ The "numpy.argmin" can be used to find the cruve with minimum deviation of the f
 
 
 
-15.
+15. 3 GSL functions for solving the initial value problems are:
+
 1.gsl odeiv2 step rkf45
 
 API: int gsl odeiv2 step rkf45 (const gsl odeiv2 step type * T, double t, const double y[ ], double h,
