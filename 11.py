@@ -35,7 +35,7 @@ while(a==0):
 #        print('y2 =',y2)
         rho = 1
         if (np.abs(x1-x2)!=0):
-            rho = (10**(-4)*h*30/np.abs(x1-x2))**(0.25)
+            rho = (10**(-6)*h*30/np.abs(x1-x2))**(0.25)
         h = h*rho
 
 
