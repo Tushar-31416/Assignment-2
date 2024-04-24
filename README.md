@@ -5,6 +5,8 @@ Here the given second order differential equation is divided into two coupled di
 
 
 ```math
-z' = z + x\times e^{x} - x //
+z' = z + x\times e^{x} - x 
+```
+```math
 y' = y + z
 ```
