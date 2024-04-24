@@ -18,24 +18,23 @@ The "numpy.argmin" can be used to find the cruve with minimum deviation of the f
 
 15. 3 GSL functions for solving the initial value problems are:
 
-a)  gsl odeiv2 step rkf45
+a)  gsl_odeiv2_step_rkf45
 
-API: int gsl odeiv2 step rkf45 (const gsl odeiv2 step type * T, double t, const double y[ ], double h,
-double yerr[ ], double ynew[ ], gsl odeiv2 system * sys)
+API: int gsl odeiv2 step rkf45 (const gsl_odeiv2_step_type * T, double t, const double y[ ], double h,
+double yerr[ ], double ynew[ ], gsl_odeiv2_system * sys)
 
 Algorithm: Runge-Kutta-Fehlberg (RKF45)
 
-b)  gsl odeiv2 step rk4
+b)  gsl_odeiv2_step_rk4
 
-API: int gsl odeiv2 step rk4 (const gsl odeiv2 step type * T, double t, const double y[ ], double h, double
-y new[ ], gsl odeiv2 system * sys)
+API: int gsl_odeiv2_step_rk4 (const gsl_odeiv2_step_type * T, double t, const double y[ ], double h, double y_new[ ], gsl_odeiv2_system * sys)
 
 Algorithm: Classical Fourth-order Runge-Kutta
 
-c)  gsl odeiv2 step bsimp
+c)  gsl_odeiv2_step_bsimp
 
-API: int gsl odeiv2 step bsimp (const gsl odeiv2 step type * T, double t, const double y[ ], double h,
-double * y new, double * yerr, gsl odeiv2 system * sys)
+API: int gsl_odeiv2_step_bsimp (const gsl_odeiv2_step_type * T, double t, const double y[ ], double h,
+double * y_new, double * yerr, gsl_odeiv2_system * sys)
 
 Algorithm: Bulirsch-Stoer Extrapolation
 
